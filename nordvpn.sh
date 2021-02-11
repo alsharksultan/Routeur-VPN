@@ -3,7 +3,7 @@
 # INSTALL RASPAP
 
 echo ""
-echo -e "Script 3 : Installation de NordVPN"
+echo -e "Script 3 : Install & config NordVPN"
 echo -e ""
 echo ""
 

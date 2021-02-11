@@ -3,21 +3,21 @@
 # MAJ
 
 echo ""
-echo -n "Script 1 : Mettre à jour, installer OpenVPN et configurer le pays Wifi ? [taper oui ou non]:"
+echo -n "Script 1 : Update, install OpenVPN et config Contry ? [type yes or no]:"
 echo ""
 read answer
 
-if [[ $answer != "oui" ]]; then
-        echo "Arret du script"
+if [[ $answer != "yes" ]]; then
+        echo "Stopping Script"
         exit 0
     fi
 	
 echo ""	
-echo -n "Mettre à jour le mot de passe de pi? [taper oui ou non]: "
+echo -n "Update pi password? [type yes or no]: "
 echo ""
 read answer
 
-if [ "$answer" != 'non' ] && [ "$answer" != 'non' ]; then
+if [ "$answer" != 'no' ] && [ "$answer" != 'no' ]; then
         sudo passwd pi
 fi
 
@@ -25,7 +25,7 @@ cd /home/pi/Routeur-VPN/ || exit
 sudo apt-get update -y
 sudo apt dist-upgrade
 
-echo -e "Fin du premier script : redemarrage dans 30 secondes "
+echo -e "End of 1st script : reboot in 30 seconds "
 echo ""
 sleep 30
 sudo reboot

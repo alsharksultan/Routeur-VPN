@@ -3,10 +3,10 @@
 # INSTALL RASPAP
 
 echo ""
-echo -e "Script 2 : Installer le hotspot WIFI Raspad"
-echo -e "Repondez 'y' à toutes les questions"
-echo -e "Redémarrer a la fin du script."
-echo -e "Github officiel : https://github.com/RaspAP/raspap-webgui"
+echo -e "Script 2 : Install Hostpad & raspap WebGui"
+echo -e "Answer 'y' to all question"
+echo -e "Reboot at the end of script."
+echo -e "Official GitHub : https://github.com/RaspAP/raspap-webgui"
 echo ""
 
 sleep 5
