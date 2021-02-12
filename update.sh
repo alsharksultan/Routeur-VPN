@@ -23,10 +23,7 @@ fi
 
 cd /home/pi/Routeur-VPN/ || exit
 sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt dist-upgrade -y
-sudo cp /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf.org
-sudo  rm  /etc/wpa_supplicant/wpa_supplicant.conf
+sudo apt-get full-upgrade -y
 
 echo -e "End of 1st script : reboot in 30 seconds "
 echo ""
