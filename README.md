@@ -1,7 +1,5 @@
 # Routeur-VPN
 
-# Routeur-VPN
-
 
 
 Here is a script only for raspberry. 
@@ -14,13 +12,13 @@ You can use my script. I have do it for all people who don't no anything in web 
 
 So let's start.
 
-Require : 
+# Require : 
 
 - Raspberry 3B minimum ( i didn't test on 2 or older.)
 - Raspbian OS LITE (0.4 GB version)
 
 
-Setup : 
+# Setup : 
 
 1. You need to install Raspberry in you're SD Card. 
 
