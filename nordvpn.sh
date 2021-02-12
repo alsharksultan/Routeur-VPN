@@ -10,6 +10,7 @@ echo ""
 sleep 2
 sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
 nordvpn login
+nordvpn c
 nordvpn whitelist add port 22
 sudo iptables -P INPUT ACCEPT
 sudo iptables -P OUTPUT ACCEPT
