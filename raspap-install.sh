@@ -11,10 +11,10 @@ echo ""
 
 sleep 5
 sudo rfkill unblock wlan
-sudo apt-get install software-properties-common 
+sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php
-sudo apt-get install dhcpcd5
-sudo apt-get install lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php7.3-cgi
+sudo apt-get install dhcpcd5 -y
+sudo apt-get install lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php7.3-cgi -y
 sudo lighttpd-enable-mod fastcgi-php    
 sudo service lighttpd force-reload
 sudo systemctl restart lighttpd.service
